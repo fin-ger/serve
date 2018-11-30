@@ -77,6 +77,12 @@ serve --help
 ```
 </tmpl>
 
+### How to Run In Docker Container
+
+```
+$ docker run -p 3000:3000 -v /my/directory:/content fin1ger/serve
+```
+
 #### Credits
 
 TJ's [serve](https://github.com/tj/serve)
